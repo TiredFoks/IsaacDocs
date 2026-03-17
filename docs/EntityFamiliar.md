@@ -52,11 +52,12 @@ Adds to orbitals. This doesn't remove other flags!
 ___
 ### Fire·Projectile () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
-#### [EntityTear](EntityTear.md) FireProjectile ( [Vector](Vector.md) Dir ) {: .copyable aria-label='Functions' }
+#### [EntityTear](EntityTear.md) FireProjectile ( [Vector](Vector.md) Dir, bool IgnorePlayerVelocity ) {: .copyable aria-label='Functions' }
 
 Shoots a projectile from the center of the familiar in the direction you defined.
 If used on a familiar that shoots multiple projectiles (example: harlequin baby), this function will only return the left most projectile based on the direction. If used on familiars with special tears (example: Lil Brimstone,...), this will just shoot a regular tear.
 This function will not play the shoot animation of the familiar.
+When IgnorePlayerVelocity is set to true the fired tear won't be influenced by the player's velocity.
 ___
 ### Follow·Parent () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
