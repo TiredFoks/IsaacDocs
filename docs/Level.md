@@ -326,7 +326,7 @@ ___
 ### Query·Room·Type·Index () {: aria-label='Functions' }
 [ ](#){: .reporplus .tooltip .badge }
 #### int QueryRoomTypeIndex ( [RoomType](enums/RoomType.md) RoomType, boolean Visited, [RNG](RNG.md) rng, boolean IgnoreGroup = false ) {: .copyable aria-label='Functions' }
-IgnoreGroup: If set to `true`, includes rooms that do not have the same group ID as the current room (currently unused)
+IgnoreGroup: If set to `true`, includes rooms that do not have the same group ID as the current room (for example the Ultra Secret Room).
 ___
 ### Remove·Compass·Effect () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
